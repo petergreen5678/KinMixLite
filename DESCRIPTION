@@ -1,0 +1,13 @@
+Package: KinMixLite
+Type: Package
+Title: Inference about relationships from DNA mixtures
+Version: 2.0.1
+Date: 2022-12-03
+Author: Peter Green
+Maintainer: Peter Green <P.J.Green@bristol.ac.uk>
+Description: Methods for inference about relationships between contributors to a DNA mixture and 
+  other individuals of known genotype: a basic example would be testing whether a contributor to 
+  a mixture is the father of a child of known genotype. 
+License: GPL (>=2)
+Depends: DNAmixturesLite, gRaven
+
