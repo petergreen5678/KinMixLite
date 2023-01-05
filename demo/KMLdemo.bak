@@ -61,7 +61,7 @@ cat('log10 LR',log10LR,'\n')
 
 ## show 'deconvolution'
 
-summary(map.genotypes(mixD2,pmin=0.001,U=1:2))
+summary(map.genotypes(mixD2,pmin=0.001,U=1))
 
 ## plot one of the DAGs
 
