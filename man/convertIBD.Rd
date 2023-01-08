@@ -35,12 +35,12 @@ Peter Green (P.J.Green@bristol.ac.uk)
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-\code{\link{pedtools}}, \code{\link{KinMix}}
+\code{\link{pedtools}}, \code{\link{KinMixLite}}
 
 
 }
 \examples{
-require(KinMix)
+require(KinMixLite)
 data(test2data)
 data(NGMDyes)
 

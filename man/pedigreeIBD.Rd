@@ -26,7 +26,7 @@ Peter Green (P.J.Green@bristol.ac.uk)
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-\code{\link{pedtools}}, \code{\link{KinMix}}
+\code{\link{pedtools}}, \code{\link{KinMixLite}}
 }
 
 \references{
@@ -36,7 +36,7 @@ University of Bristol technical report, 2019.
 }
 
 \examples{
-require(KinMix)
+require(KinMixLite)
 require(ribd)
 
 id<-c('gf','gm','b1','b2','m','c')

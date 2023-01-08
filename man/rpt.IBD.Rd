@@ -65,7 +65,7 @@ If \code{IBD} is missing, the default value represents parent-child.
 
 In the interests of upward compatibility, in \code{rpt.typed.child} and \code{replace.Ui.tables} (which are identical), the argument \code{Cgt} can be given as either a genotype profile data frame, or an allele count array.
 
-By default, the allele frequency database used for the founding genes is that used when the \code{mixture} object is created, in an earlier call to \code{DNAmixture}. A non-null value for the \code{all.freq} argument allows the user to specify alternative database(s) for the founding genes. If its value is an allele frequency database (in the format specified in \code{\link{KinMix}}) then that database is used for all founding genes; if the value of the argument is a list of such databases, then component k of the list is used for allele frequencies for the founding gene labelled k in the \code{IBD} argument. Note that this option allows modelling of mixtures where different contributors are drawn from different populations, whether or not there are relationships among individuals. 
+By default, the allele frequency database used for the founding genes is that used when the \code{mixture} object is created, in an earlier call to \code{DNAmixture}. A non-null value for the \code{all.freq} argument allows the user to specify alternative database(s) for the founding genes. If its value is an allele frequency database (in the format specified in \code{\link{KinMixLite}}) then that database is used for all founding genes; if the value of the argument is a list of such databases, then component k of the list is used for allele frequencies for the founding gene labelled k in the \code{IBD} argument. Note that this option allows modelling of mixtures where different contributors are drawn from different populations, whether or not there are relationships among individuals. 
 }
 
 \value{Vector of marker-specific probabilities of the typed genotypes.}
@@ -76,7 +76,7 @@ Peter Green (P.J.Green@bristol.ac.uk)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-require(KinMix)
+require(KinMixLite)
 data(test2data)
 data(NGMDyes)
 

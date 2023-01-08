@@ -23,7 +23,7 @@ Peter Green (P.J.Green@bristol.ac.uk)
 See also \code{\link{logL.UK}}.
 }
 \examples{
-require(KinMix)
+require(KinMixLite)
 data(test2data)
 data(NGMDyes)
 

@@ -26,7 +26,7 @@ Peter Green (P.J.Green@bristol.ac.uk)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-require(KinMix)
+require(KinMixLite)
 data(test2data)
 
 mixD<-DNAmixture(list(epg),k=3,C=list(0.001),database=db,dyes=list(NGMDyes),\cr

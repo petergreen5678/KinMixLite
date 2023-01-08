@@ -8,7 +8,7 @@ rGTs(nreps,IBD,db,DNA,sex=rep(0,ncontr),nU=0)
 \arguments{
   \item{nreps}{Integer, number of replicates}
   \item{IBD}{Specification of relationships, as in \code{convertIBD}}
-  \item{db}{Data frame, database of alleles and their frequencies, for each marker; see Formats section in \code{\link{KinMix}}.}
+  \item{db}{Data frame, database of alleles and their frequencies, for each marker; see Formats section in \code{\link{KinMixLite}}.}
   \item{DNA}{Integer vector, numbers of DNA cells for the respective individuals, can be NA}
   \item{sex}{Integer vector, sex of the respective contributors: 1=male, 2=female, 0=unspecified}
   \item{nU}{Integer, include also this number of unrelated individuals}
@@ -27,7 +27,7 @@ Genotype profiles are generated randomly, using the allele frequency database \c
 \code{\link{pcrsim-package}}
 }
 \examples{
-require(KinMix)
+require(KinMixLite)
 data(test2data)
 data(NGMDyes)
 }

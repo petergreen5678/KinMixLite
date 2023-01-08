@@ -2,7 +2,7 @@ Package: KinMixLite
 Type: Package
 Title: Inference about relationships from DNA mixtures
 Version: 2.0.2
-Date: 2022-12-17
+Date: 2023-01-08
 Author: Peter Green
 Maintainer: Peter Green <P.J.Green@bristol.ac.uk>
 Description: Methods for inference about relationships between contributors to a DNA mixture and 

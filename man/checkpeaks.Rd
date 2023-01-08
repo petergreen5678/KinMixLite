@@ -6,8 +6,8 @@
 checkpeaks(x,db,fix=0.003)
 }
 \arguments{
-  \item{x}{data frame, the epg or genotype profile; see Format section in \code{\link{KinMix}}.}
-  \item{db}{data frame, the db; see Format section in \code{\link{KinMix}}.}
+  \item{x}{data frame, the epg or genotype profile; see Format section in \code{\link{KinMixLite}}.}
+  \item{db}{data frame, the db; see Format section in \code{\link{KinMixLite}}.}
   \item{fix}{numeric: if positive, increment to db frequency for each identified discrepant peak}
 }
 \value{(possibly modified) db}
@@ -21,7 +21,7 @@ Peter Green (P.J.Green@bristol.ac.uk)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-require(KinMix)
+require(KinMixLite)
 data(test2data)
 
 db<-checkpeaks(epg,db)

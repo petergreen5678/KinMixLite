@@ -32,7 +32,7 @@ Peter Green (P.J.Green@bristol.ac.uk)
 See also \code{\link{mixML}}.
 }
 \examples{
-require(KinMix)
+require(KinMixLite)
 data(test2data)
 data(NGMDyes)
 

@@ -27,7 +27,7 @@ Peter Green (P.J.Green@bristol.ac.uk)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-require(KinMix)
+require(KinMixLite)
 require(ribd)
 data(emperors)
 
