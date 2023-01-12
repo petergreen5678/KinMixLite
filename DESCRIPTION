@@ -2,12 +2,12 @@ Package: KinMixLite
 Type: Package
 Title: Inference about relationships from DNA mixtures
 Version: 2.0.2
-Date: 2023-01-08
+Date: 2023-01-12
 Author: Peter Green
 Maintainer: Peter Green <P.J.Green@bristol.ac.uk>
 Description: Methods for inference about relationships between contributors to a DNA mixture and 
   other individuals of known genotype: a basic example would be testing whether a contributor to 
-  a mixture is the father of a child of known genotype. Thi si identical to the 'KinMix' package,
+  a mixture is the father of a child of known genotype. This is identical to the 'KinMix' package,
   except that the latter uses 'RHugin' as the Bayes net engine, while this package uses 'gRain', with
   a consequent modest reduction in performance.
 License: GPL (>=2)
