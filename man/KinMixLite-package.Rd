@@ -9,7 +9,7 @@
 \packageDescription{KinMixLite}
 }
 \details{
-This package is a toolkit for inference about mixtures and familial relationships, either between contributors or between a contributor and other typed individuals. It extends the functionality proposed in Green and Mortera (2017) by allowing more general relationships, specified in general by an IBD pattern distribution - the generalisation to more than two individuals of the coefficients of identity of Jacquard (1974). Details are in a paper in preparation by Green and Mortera. \code{KinMixLite} extends the capability of the \pkg{DNAmixturesLite} package, and intimately relies on that package; it again uses the \pkg{RHugin} package for Bayes Net calculations.
+This package is a toolkit for inference about mixtures and familial relationships, either between contributors or between a contributor and other typed individuals. It extends the functionality proposed in Green and Mortera (2017) by allowing more general relationships, specified in general by an IBD pattern distribution - the generalisation to more than two individuals of the coefficients of identity of Jacquard (1974). Details are in a paper in preparation by Green and Mortera. \code{KinMixLite} extends the capability of the \pkg{DNAmixturesLite} package, and intimately relies on that package; both use the packages \pkg{gRaven} and \pkg{gRain} for all Bayes Net calculations, in place of the \pkg{RHugin} package.
 }
 \author{
 \packageAuthor{KinMixLite}
